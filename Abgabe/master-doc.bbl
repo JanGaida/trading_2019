@@ -1,0 +1,390 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{26}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{??}{mrj}{[n.d.]}]%
+        {mrj20}
+ \bibinfo{year}{[n.d.]}\natexlab{}.
+\newblock
+  \bibinfo{howpublished}{\url{http://mrjbq7.github.io/ta-lib/func_groups/momentum_indicators.html}}.
+\newblock
+\newblock
+\shownote{Accessed: 10.02.2020.}
+
+
+\bibitem[\protect\citeauthoryear{??}{aro}{[n.d.]}]%
+        {aro20}
+ \bibinfo{year}{[n.d.]}\natexlab{}.
+\newblock \bibinfo{title}{Aroon(ARO)}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.tradesignalonline.com/lexicon/view.aspx?id=Aroon+(ARO)}}.
+\newblock
+\newblock
+\shownote{Accessed: 10.02.2020.}
+
+
+\bibitem[\protect\citeauthoryear{??}{tra}{[n.d.]}]%
+        {tra20}
+ \bibinfo{year}{[n.d.]}\natexlab{}.
+\newblock \bibinfo{title}{Rate of Change}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.tradesignalonline.com/lexicon/view.aspx?id=Rate+of+Change+(ROC)}}.
+\newblock
+\newblock
+\shownote{Accessed: 10.02.2020.}
+
+
+\bibitem[\protect\citeauthoryear{{Adam Hayes}}{{Adam Hayes}}{2019}]%
+        {inoPedEma}
+\bibfield{author}{\bibinfo{person}{{Adam Hayes}}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{title}{Exponential Moving Average - EMA Definition}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://www.investopedia.com/terms/e/ema.asp}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{[Online; abgerufen am 22.02.2020].}
+
+
+\bibitem[\protect\citeauthoryear{Berteit}{Berteit}{[n.d.]a}]%
+        {ber201}
+\bibfield{author}{\bibinfo{person}{Rene Berteit}.}
+  \bibinfo{year}{[n.d.]}\natexlab{a}.
+\newblock \bibinfo{title}{Indikatoren-Knowhow: Aroon Up/Down}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.godmode-trader.de/know-how/indikatoren-knowhow-aroon-updown,3635454}}.
+\newblock
+\newblock
+\shownote{Accessed: 10.02.2020.}
+
+
+\bibitem[\protect\citeauthoryear{Berteit}{Berteit}{[n.d.]b}]%
+        {ber20}
+\bibfield{author}{\bibinfo{person}{Rene Berteit}.}
+  \bibinfo{year}{[n.d.]}\natexlab{b}.
+\newblock \bibinfo{title}{Relative Stärke Index RSI}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.godmode-trader.de/know-how/relative-staerke-index-rsi-was-steckt-hinter-diesem-indikator,3735120}}.
+\newblock
+\newblock
+\shownote{Accessed: 10.02.2020.}
+
+
+\bibitem[\protect\citeauthoryear{{Cory Mitchell}}{{Cory Mitchell}}{2019}]%
+        {inoPedPpo}
+\bibfield{author}{\bibinfo{person}{{Cory Mitchell}}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{title}{Percentage Price Oscillator – PPO}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://www.investopedia.com/terms/p/ppo.asp}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{[Online; abgerufen am 22.02.2020].}
+
+
+\bibitem[\protect\citeauthoryear{{Deep Crypto Trading Projektgruppe}}{{Deep
+  Crypto Trading Projektgruppe}}{2019}]%
+        {deepCrypto}
+\bibfield{author}{\bibinfo{person}{{Deep Crypto Trading Projektgruppe}}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{title}{Deep Reinforcement Learning für algorithmischen
+  Handel an Kryptowährungsbörsen}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://uol.de/fileadmin/user_upload/informatik/download/lehre/PGs/PG_DeepCryptoTrading_neu.pdf}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{[Online; accessed 24.02.2020].}
+
+
+\bibitem[\protect\citeauthoryear{der Universität~Oldenburg}{der
+  Universität~Oldenburg}{2019}]%
+        {pro19}
+\bibfield{author}{\bibinfo{person}{Projektgruppe~DeepCryptoTrading der
+  Universität~Oldenburg}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{title}{Deep Reinforcement Learning für algorithmischen
+  Handel an Kryptowährungsbörsen}.
+\newblock
+  \bibinfo{howpublished}{\url{https://uol.de/fileadmin/user_upload/informatik/download/lehre/PGs/PG_DeepCryptoTrading_neu}}.
+  , \bibinfo{numpages}{163--169}~pages.
+\newblock
+\newblock
+\shownote{Accessed: 10.02.2020.}
+
+
+\bibitem[\protect\citeauthoryear{Fortier}{Fortier}{[n.d.]}]%
+        {taLib}
+\bibfield{author}{\bibinfo{person}{Mario Fortier}.}
+  \bibinfo{year}{[n.d.]}\natexlab{}.
+\newblock \bibinfo{title}{taLib}.
+\newblock \bibinfo{howpublished}{\url{http://ta-lib.org}}.
+\newblock
+\newblock
+\shownote{Accessed: 10.02.2020.}
+
+
+\bibitem[\protect\citeauthoryear{Hadoop}{Hadoop}{2017}]%
+        {beg17}
+\bibfield{author}{\bibinfo{person}{Beginner's Hadoop}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \bibinfo{title}{User defined functions(udf) in spark}.
+\newblock
+  \bibinfo{howpublished}{\url{http://beginnershadoop.com/2017/11/26/user-defined-functionsudf-in-spark/}}.
+\newblock
+\newblock
+\shownote{Accessed: 10.02.2020.}
+
+
+\bibitem[\protect\citeauthoryear{Klein}{Klein}{[n.d.]}]%
+        {kaggle}
+\bibfield{author}{\bibinfo{person}{Carsten Klein}.}
+  \bibinfo{year}{[n.d.]}\natexlab{}.
+\newblock \bibinfo{title}{Quick look at the Bitfinex crypto currency dataset}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.kaggle.com/tencars/bitfinexdataset}}.
+\newblock
+\newblock
+\shownote{Accessed: 14.02.2020.}
+
+
+\bibitem[\protect\citeauthoryear{la~Gre}{la~Gre}{[n.d.]}]%
+        {gekko}
+\bibfield{author}{\bibinfo{person}{Filip la Gre}.}
+  \bibinfo{year}{[n.d.]}\natexlab{}.
+\newblock \bibinfo{title}{Gekko-Stratgies}.
+\newblock
+  \bibinfo{howpublished}{\url{https://github.com/xFFFFF/Gekko-Strategies}}.
+\newblock
+\newblock
+\shownote{Accessed: 10.02.2020.}
+
+
+\bibitem[\protect\citeauthoryear{Leuoth}{Leuoth}{[n.d.]}]%
+        {vorlesung}
+\bibfield{author}{\bibinfo{person}{Prof. Dr.~Sebastian Leuoth}.}
+  \bibinfo{year}{[n.d.]}\natexlab{}.
+\newblock \bibinfo{title}{Applied Big Data Analytics, Grundlagen Data
+  Warehouse}.
+\newblock
+  \bibinfo{howpublished}{\url{https://moodle.hof-university.de/pluginfile.php/97284/mod_folder/content/0/Analytics_01.pdf?forcedownload=1}}.
+\newblock
+\newblock
+\shownote{Accessed: 18.02.2019.}
+
+
+\bibitem[\protect\citeauthoryear{{Mikhail Levkovsky}}{{Mikhail
+  Levkovsky}}{2019}]%
+        {medCsvParq}
+\bibfield{author}{\bibinfo{person}{{Mikhail Levkovsky}}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{title}{CSV vs Parquet vs Avro: Choosing the Right Tool for
+  the Right Job}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://medium.com/ssense-tech/csv-vs-parquet-vs-avro-choosing-the-right-tool-for-the-right-job-79c9f56914a8}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{[Online; abgerufen am 22.02.2020].}
+
+
+\bibitem[\protect\citeauthoryear{{SparxSystems Software}}{{SparxSystems
+  Software}}{[n.d.]}]%
+        {ZDiagramm}
+\bibfield{author}{\bibinfo{person}{{SparxSystems Software}}.}
+  \bibinfo{year}{[n.d.]}\natexlab{}.
+\newblock \bibinfo{title}{Zustandsdiagramm (State Machine Diagram)}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://www.sparxsystems.de/ressourcen/literatur/leseprobe-zu-projektabwicklung-mit-uml-und-enterprise-architect/zustandsdiagramm-state-machine-diagram/}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{[Online; accessed 15.02.2020].}
+
+
+\bibitem[\protect\citeauthoryear{Stefan~Luber}{Stefan~Luber}{[n.d.]a}]%
+        {dtw}
+\bibfield{author}{\bibinfo{person}{Nico~Litzel Stefan~Luber}.}
+  \bibinfo{year}{[n.d.]}\natexlab{a}.
+\newblock \bibinfo{title}{Was ist ein Data Ware House?}
+\newblock
+  \bibinfo{howpublished}{\url{https://www.bigdata-insider.de/was-ist-ein-data-warehouse-a-606701/}}.
+\newblock
+\newblock
+\shownote{Accessed: 18.12.2019.}
+
+
+\bibitem[\protect\citeauthoryear{Stefan~Luber}{Stefan~Luber}{[n.d.]b}]%
+        {spark}
+\bibfield{author}{\bibinfo{person}{Nico~Litzel Stefan~Luber}.}
+  \bibinfo{year}{[n.d.]}\natexlab{b}.
+\newblock \bibinfo{title}{Was ist ein Spark?}
+\newblock
+  \bibinfo{howpublished}{\url{https://www.bigdata-insider.de/was-ist-spark-a-572706/}}.
+\newblock
+\newblock
+\shownote{Accessed: 18.12.2019.}
+
+
+\bibitem[\protect\citeauthoryear{{Thomas Spicer}}{{Thomas Spicer}}{2019}]%
+        {dzCsvParq}
+\bibfield{author}{\bibinfo{person}{{Thomas Spicer}}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{title}{Apache Parquet vs. CSV Files}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://dzone.com/articles/how-to-be-a-hero-with-powerful-parquet-google-and}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{[Online; abgerufen am 22.02.2020].}
+
+
+\bibitem[\protect\citeauthoryear{{TradingView contributors}}{{TradingView
+  contributors}}{2019a}]%
+        {tvWikiMacd}
+\bibfield{author}{\bibinfo{person}{{TradingView contributors}}.}
+  \bibinfo{year}{2019}\natexlab{a}.
+\newblock \bibinfo{title}{MACD (Moving Average Convergence/Divergence)}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://www.tradingview.com/wiki/MACD_(Moving_Average_Convergence/Divergence)}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{[Online; abgerufen am 22.02.2020].}
+
+
+\bibitem[\protect\citeauthoryear{{TradingView contributors}}{{TradingView
+  contributors}}{2019b}]%
+        {tvWikiPpo}
+\bibfield{author}{\bibinfo{person}{{TradingView contributors}}.}
+  \bibinfo{year}{2019}\natexlab{b}.
+\newblock \bibinfo{title}{Price Oscillator (PPO)}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://www.tradingview.com/wiki/Price_Oscillator_(PPO)}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{[Online; abgerufen am 22.02.2020].}
+
+
+\bibitem[\protect\citeauthoryear{unknown}{unknown}{[n.d.]a}]%
+        {haasbot}
+\bibfield{author}{\bibinfo{person}{unknown}.}
+  \bibinfo{year}{[n.d.]}\natexlab{a}.
+\newblock \bibinfo{title}{Bitcoin-Trading-Bot: Haasbot automatisiert deinen
+  Bitcoin-Handel}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.btc-echo.de/bitcoin-trading-bot-haasbot-automatisiert-bitcoin-handel/}}.
+\newblock
+\newblock
+\shownote{Accessed: 25.02.2020.}
+
+
+\bibitem[\protect\citeauthoryear{unknown}{unknown}{[n.d.]b}]%
+        {bitfinex}
+\bibfield{author}{\bibinfo{person}{unknown}.}
+  \bibinfo{year}{[n.d.]}\natexlab{b}.
+\newblock \bibinfo{title}{Bitfinex Documentation}.
+\newblock \bibinfo{howpublished}{\url{https://docs.bitfinex.com/docs}}.
+\newblock
+\newblock
+\shownote{Accessed: 14.02.2020.}
+
+
+\bibitem[\protect\citeauthoryear{van Rossum}{van Rossum}{[n.d.]}]%
+        {gekko2}
+\bibfield{author}{\bibinfo{person}{Mike van Rossum}.}
+  \bibinfo{year}{[n.d.]}\natexlab{}.
+\newblock \bibinfo{title}{About Gekko}.
+\newblock
+  \bibinfo{howpublished}{\url{https://gekko.wizb.it/docs/introduction/about_gekko.html}}.
+\newblock
+\newblock
+\shownote{Accessed: 25.02.2020.}
+
+
+\bibitem[\protect\citeauthoryear{{Wikipedia contributors}}{{Wikipedia
+  contributors}}{2019a}]%
+        {wikiParq}
+\bibfield{author}{\bibinfo{person}{{Wikipedia contributors}}.}
+  \bibinfo{year}{2019}\natexlab{a}.
+\newblock \bibinfo{title}{Apache Parquet}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://en.wikipedia.org/wiki/Apache_Parquet}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{[Online; abgerufen am 22.02.2020].}
+
+
+\bibitem[\protect\citeauthoryear{{Wikipedia contributors}}{{Wikipedia
+  contributors}}{2019b}]%
+        {wikiCsv}
+\bibfield{author}{\bibinfo{person}{{Wikipedia contributors}}.}
+  \bibinfo{year}{2019}\natexlab{b}.
+\newblock \bibinfo{title}{CSV (Dateiformat)}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://de.wikipedia.org/wiki/CSV_(Dateiformat)}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{[Online; abgerufen am 22.02.2020].}
+
+
+\end{thebibliography}

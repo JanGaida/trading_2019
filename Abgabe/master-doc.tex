@@ -1,0 +1,228 @@
+\documentclass[sigconf]{acmart}
+
+\bibliographystyle{ACM-Reference-Format}
+
+\setcopyright{acmcopyright}
+\copyrightyear{2020}
+\acmYear{2020}
+
+%%
+%% PACKAGES HIER
+%%
+
+\usepackage[ngerman]{babel}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+
+\usepackage{url}
+
+\usepackage{geometry}
+\geometry{letterpaper} 
+
+\usepackage{listings}
+\lstset{
+  breaklines=true,
+  literate=%
+  {Ö}{{\"O}}1
+  {Ä}{{\"A}}1
+  {Ü}{{\"U}}1
+  {ß}{{\ss}}1
+  {ü}{{\"u}}1
+  {ä}{{\"a}}1
+  {ö}{{\"o}}1
+}
+
+
+\usepackage{subfiles} % letztes package!
+
+%Styledefinition für Listings:
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+	backgroundcolor=\color{backcolour},   
+	commentstyle=\color{codegreen},
+	keywordstyle=\color{magenta},
+	numberstyle=\tiny\color{codegray},
+	stringstyle=\color{codepurple},
+	basicstyle=\ttfamily\footnotesize,
+	breakatwhitespace=false,         
+	breaklines=true,                 
+	captionpos=b,                    
+	keepspaces=true,                 
+	numbers=left,                    
+	numbersep=5pt,                  
+	showspaces=false,                
+	showstringspaces=false,
+	showtabs=false,                  
+	tabsize=2
+}
+
+%Anwenden der Styledefiniton auf die Listings
+\lstset{style=mystyle}
+
+\acmConference[FWPM:Big Data Analysis]{Big Data Analysis}{Wintersemenster, 2019}{Hof}
+\acmBooktitle{FWPM: FWPM:Big Data Analysis, Wintersemenster, 2019, Hof}
+\acmPrice{}
+\acmISBN{}
+
+
+\begin{document}
+
+%%
+%% TITLE TODO
+%%
+
+\title{Crypto Trading Recommender mittels Spark}
+
+\author{Tina Amann}
+\email{tina.amann@hof-university.de}
+\affiliation{
+\institution{Hochschule Hof}
+\streetaddress{Alfons-Goppel-Platz 1}
+\city{Hof an der Saale}
+\country{Germany}
+}
+
+\author{Samet Aslan}
+\email{samet.aslan@hof-university.de}
+\affiliation{
+\institution{Hochschule Hof}
+\streetaddress{Alfons-Goppel-Platz 1}
+\city{Hof an der Saale}
+\country{Germany}
+}
+
+\author{Daniel Eckardt}
+\email{daniel.eckardt@hof-university.de}
+\affiliation{
+\institution{Hochschule Hof}
+\streetaddress{Alfons-Goppel-Platz 1}
+\city{Hof an der Saale}
+\country{Germany}
+}
+
+\author{Jan Bernd Gaida}
+\email{jan.gaida@hof-university.de}
+\affiliation{
+\institution{Hochschule Hof}
+\streetaddress{Alfons-Goppel-Platz 1}
+\city{Hof an der Saale}
+\country{Germany}
+}
+
+\author{Patrick David Huget}
+\email{patrick.huget@hof-university.de}
+\affiliation{
+\institution{Hochschule Hof}
+\streetaddress{Alfons-Goppel-Platz 1}
+\city{Hof an der Saale}
+\country{Germany}
+}
+
+\author{Hannes Müller}
+\email{hannes.mueller@hof-university.de}
+\affiliation{
+\institution{Hochschule Hof}
+\streetaddress{Alfons-Goppel-Platz 1}
+\city{Hof an der Saale}
+\country{Germany}
+}
+
+\author{Alexander Puchta}
+\email{alexander.puchta@hof-university.de}
+\affiliation{
+\institution{Hochschule Hof}
+\streetaddress{Alfons-Goppel-Platz 1}
+\city{Hof an der Saale}
+\country{Germany}
+}
+
+\author{Prof. Dr. Sebastian Leuoth}
+\email{sebastian.leuoth@hof-university.de}
+\affiliation{
+\institution{Hochschule Hof}
+\streetaddress{Alfons-Goppel-Platz 1}
+\city{Hof an der Saale}
+\country{Germany}
+}
+
+%%
+%% ABSTRACT TODO
+%%
+
+\begin{abstract}
+  A clear and well-documented \LaTeX\ document is presented as an
+  article formatted for publication by ACM in a conference proceedings
+  or journal publication. Based on the ``acmart'' document class, this
+  article presents and explains many of the common variations, as well
+  as many of the formatting elements an author may use in the
+  preparation of the documentation of their work.
+\end{abstract}
+
+
+%%
+%% KEYWORDS TODO
+%%
+
+\keywords{datasets, neural networks, gaze detection, text tagging}
+
+\maketitle
+
+
+%%
+%% EINLEITUNG (Hab ich so von https://github.com/sleuoth-hof/trading_2019/blob/master/Abgabe/acmart-master/samples/sample-sigconf.tex hierher kopiert)
+%%
+\subfile{Einleitung/abstract.tex}
+\subfile{Einleitung/einleitung.tex}
+
+\subfile{Einleitung/relWork.tex}
+
+
+%%
+%% TODO REIHENFOLGE / STRUKTUR NICHT FINAL
+%%
+
+\subfile{Datenaufbereitung/api.tex}
+\subfile{Datenaufbereitung/interpolation.tex}
+%%
+%% SECTION PPO - Percentage Price Oscillator
+%%
+\subfile{ppo/ppo.tex}
+
+%%
+%% SECTION NEO
+%%
+\subfile{NEO_Indikator/NEO_Indikator.tex}
+
+%%
+%% SECTION KURSVERGLEICH
+%%
+\subfile{kursvergleich/kursvergleich.tex}
+
+%%
+%% SECTION  Wahlverfahren und Transaktionsempfehlung
+\subfile{wahlverfahren/Doku.tex}
+%% SECTION BOT - Trading Bot
+%%
+\subfile{bot/bot.tex}
+
+%%
+%% LITERATURVERZEICHNIS
+%%
+\bibliography{master-doc}
+
+%%
+%% ABBILDUNGSVERZEICHNIS
+%%
+\listoffigures
+
+%%
+%% TABELLENVERZEICHNIS
+%%
+\listoftables
+
+\end{document}
